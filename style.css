@@ -1,0 +1,19 @@
+.clock {
+    width: 200px;
+    height: 200px;
+    border: ridge goldenrod;
+    border-width: 1.2em;
+    border-radius: 50%;
+    background-color: blue;
+    margin: 30px auto;
+    padding: 1em;
+}
+
+.hand {
+    border: solid white;
+    width: 100px;
+    height: 0px;
+    position: fixed;
+    top: 220px;
+    transform-origin: 100%;
+}
